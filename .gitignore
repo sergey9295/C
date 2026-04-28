@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+# Do not ignore directories (needed to see files inside them)
+!*/
+# Make exceptions for specific file types
+!*.c
+!*.txt
+# Do not ignore the .gitignore file itself
+!.gitignore
+
